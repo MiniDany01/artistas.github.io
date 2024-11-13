@@ -1,0 +1,295 @@
+/* Estilos generales */
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #bebaba;
+}
+
+/* Header */
+header {
+    height: 50px;
+    background-color: #174657;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* CONTENIDO */
+
+.hr {
+    border: none;
+    height: 2px;    
+    background-color: #174657;
+    margin: 3px;
+    clear: both;
+}
+
+/* SECCCION 1 */
+
+.sect-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 25px;
+}
+
+.sect-1 h1 {
+    margin: 0;
+    font-size: 30px;
+    align-self: flex-start;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sect-1 img {
+    height: 410px;
+    width: auto;
+    align-self: flex-end;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.sect-1 p {
+    font-size: 16px;
+    width: 100%; /* Asegura que el párrafo ocupe todo el ancho disponible */
+    text-align: justify;
+    margin: 0;
+}
+
+.parrafos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0px; /* Espacio entre los párrafos */
+    float: right;
+}
+
+.parrafo-1,
+.parrafo-2 {
+    text-align: justify;
+}
+
+.parrafo-1 {
+    max-width: 358px;
+    padding-right: 0px; /* Espacio entre los párrafos */
+}
+
+.parrafo-2 {
+    max-width: 358px;
+    padding-left: 15px; /* Espacio entre los párrafos */
+}
+
+.img-parrafos a{
+    float: right;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-right: 160px;
+    transition: all 0.3s ease-out;
+}
+
+.img-parrafos a:hover {
+    transform: scale(1.1);
+}
+
+/* SECCION 2 */
+
+.sect-2 {
+    position: relative;
+    padding-bottom: 50px; /* Espacio para la altura de .barra */
+}
+
+.sect-2 h1{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.sect-2 img {
+    height: auto;
+    width: 400px;
+    float: right;
+    margin-right: 15px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+.sect-2 p {
+    margin-top: -50px;
+    margin-right: 20px;
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 257px;
+    text-align: justify;
+    float: right;
+}
+
+.barra {
+    height: 100px;
+    background-color: #174657;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px; /* Espacio hacia el elemento superior */
+    margin-bottom: 20px; /* Espacio inferior si es necesario */
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.barra a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-out;
+}
+
+.barra a:hover {
+    transform: scale(1.1);
+}
+
+/* SECCION 3 */
+
+.sect-3 h1{
+    padding-left: 30px;
+    padding-top: -10px;
+    font-size: 30px;
+}
+
+.imagenes-album {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.imagenes-album img {
+    max-width: 250px;
+    flex: 1;
+}
+
+.starboy {
+    padding-left: 15px;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.album ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: start;
+    font-weight: bold;
+}
+
+/* SECCION 4 */
+
+.sect-4 h1{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+/* SECCION 4 */
+
+.sect-4 {
+    padding: 20px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 5px; /* Espacio entre los elementos */
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
+}
+
+.stat-item {
+    text-align: right;
+}
+
+.stat-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.stat-item p {
+    margin: 10px 0;
+}
+
+/* .modificar {
+    color: red;
+    margin-left: -10000px;
+} */
+
+/* SECCION 5 */
+
+.sect-5 img {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 100px;
+}
+
+.extras {
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+    margin-right: 200px; /* Espacio entre la imagen y el contenido */
+}
+
+.extras h3 {
+    margin: 0;
+    text-align: right; /* Alinea el texto del h3 a la derecha */
+}
+
+.extras ul {
+    list-style-type: none;
+}
+
+.extras li {
+    margin: 1px 0; /* Espacio entre cada elemento de la lista */
+    text-align: right; /* Alinea los elementos de la lista a la derecha */
+}
+
+.extras img {
+    margin-right: 60px;
+    width: 25px;
+    transition: all 0.3s ease-out;
+}
+
+.extras img:hover {
+    transform: scale(1.1);
+}

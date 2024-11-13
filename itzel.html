@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journalis</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            color: #090100 ;
+            background-color: #7a7474 ;
+        }
+
+     
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #882d25 ;
+        }
+
+        .nav-container {
+            display: flex;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        
+        .encabezado {
+            background-color: #882d25 ;
+            padding: 15px;
+            font-weight: bold;
+             
+            color: #000;
+            
+        }
+
+       
+        .contenido {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+      
+        .descripcion {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin: 20px 0;
+        }
+
+        .descripcion img {
+            width: 300px;
+            height: 200px;
+        }
+
+        .texto {
+            max-width: 400px;
+            text-align: right;
+            margin-top: 10px;
+        }
+
+        .texto p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        h2 {
+            text-align: left;
+            width: 100%;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .imagen-final {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        
+        .informacion {
+            margin-bottom: 40px;
+        }
+
+        .elementos {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .item-elementos {
+            flex: 1;
+            text-align: center;
+        }
+
+        .item-elementos img {
+             width: 100%;             
+              height: 200px;           
+         object-fit: cover;       
+              
+        }
+
+        .item-elementos p {
+            margin-top: 8px;
+            font-weight: bold;
+        }
+
+        /* Pie de página */
+        .foot {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f5f5f5;
+            padding: 40px 20px;
+            flex-wrap: wrap;
+            font-size: 0.9em;
+            border-top: 1px solid #ddd;
+        }
+
+        .logo-foot {
+            flex: 1 1 20%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo-foot img {
+            max-width: 80px;
+            margin-bottom: 5px;
+        }
+
+        .enlaces {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 70%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.enlaces  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1 1 180px;
+}
+
+.enlaces ul li {
+    margin-bottom: 5px;
+}
+
+.enlaces  ul li{
+    margin-bottom: 10px;
+    text-align: right;
+}
+    </style>
+</head>
+<body>
+
+   
+    <header>
+        <div class="nav-container"></div>
+        <nav>
+            <a href="index.html">Inicio</a>
+        </nav>
+    </header>
+
+  
+   
+    <main class="contenido">
+       
+        <section class="descripcion">
+            <img src="https://cdn.milenio.com/uploads/media/2020/09/01/zendaya-instagram_0_33_1200_746.jpg" alt="Imagen de periodistas">
+            <div class="texto">
+                <p>Reporteros y editores en una sesión en octubre de 2017 justo antes de que el Times publicara su primer artículo detallando acusaciones contra un conocido magnate del cine.</p>
+                <p>Contratamos periodistas expertos para brindar reportajes independientes y en profundidad, contribuyendo al interés público.</p>
+            </div>
+        </section>
+ 
+ <div class="encabezado">
+        <p>CONOCE A NUESTROS PERIODISTAS</p>
+    </div>
+        
+        <h2>Periodistas en el Terreno</h2>
+        <img class="imagen-final" src="https://cdn.milenio.com/uploads/media/2020/09/01/zendaya-instagram_0_33_1200_746.jpg" alt="Periodistas en el terreno">
+
+       
+        <section class="informacion">
+            <h2>Explora más</h2>
+            <div class="elementos">
+                <div class="item-elementos">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAJ2-bX36dnlLmMV_qwLAuIK2vjeTA2SO41A&s" alt="Sala de Prensa">
+                    <p>Sala de Prensa</p>
+                </div>
+                <div class="item-elementos">
+                    <img src="https://image.europafm.com/clipping/cmsimages01/2021/04/15/0F5AF9A5-AB3D-4CF8-B772-6834C4ED8D91/104.jpg?crop=461,461,x173,y0&width=1200&height=1200&optimize=low&format=webply" alt="Historia">
+                    <p>Historia</p>
+                </div>
+                <div class="item-elementos">
+                    <img src="https://i.pinimg.com/736x/7b/8f/0b/7b8f0b9ae03f6dcbc3ba0b78f2ecfaee.jpg" alt="Empresa">
+                    <p>Empresa</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="foot">
+        <div class="logo-foot">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq1VBo1dI3e0sG8-klhWTtpPPtX1T4q_3bXw&s" alt="Logo de Mi Empresa">
+            <p>Mi Empresa</p>
+            <small>Mi eslogan</small>
+        </div>
+        <div class="enlaces">
+            <ul>
+                <li><strong>Empresa</strong></li>
+                <li>Personas</li>
+                <li>Diversidad</li>
+                <li>Historia</li>
+                <li>Premios y Reconocimientos</li>
+                <li>Responsabilidad Social</li>
+                <li><strong>Periodismo</strong></li>
+                <li>Sala de Prensa</li>
+                <li>Experiencia</li>
+                <li><strong>Carreras</strong></li>
+                <li>Sala de Prensa</li>
+                <li>Tecnología</li>
+                <li>Producto y Diseño</li>
+                <li>Marketing</li>
+            </ul>
+           
+               
+           
+            <ul>
+                <li><strong>Inversionistas</strong></li>
+                <li>Colaborar</li>
+                <li>Contacto</li>
+                <li>Prensa</li>
+                <li>Calendario</li>
+                <li>Política de Privacidad</li>
+                <li>Términos de Servicio</li>
+                <li>Aviso de California</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
